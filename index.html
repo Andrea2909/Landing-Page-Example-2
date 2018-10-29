@@ -6,18 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Template</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/template.css">
   </head>
   <body>
-      <div class="row relative">
+      <div class="relative">
         <img src="img/ciao.jpg">
         <div class="flex-center">
           <div>
-            <h1>Quel Gay di Andrea Favarò</h1>
-            <button class="button"><a target="_blank" href="https://it-it.facebook.com/">Clicca qui!</button></a>
+            <h1>Example Landing Page</h1>
+            <button class="button" id='welcome'>
+            getting started
+            </button>
           </div>
         </div>
       </div>
   </body>
+  <script type="text/javascript">
+    document.getElementById("welcome").onclick = function fun() {
+        alert("WELCOME");
+    }
+  </script>
 </html>
