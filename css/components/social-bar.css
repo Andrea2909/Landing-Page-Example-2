@@ -1,0 +1,32 @@
+.social-bar {
+  position: fixed;
+  top: calc(50% - 110px);
+  left: -10px;
+  z-index: 2;
+}
+
+.social-bar ul {
+  list-style: none;
+}
+
+.social-bar ul li a {
+  color: #fff;
+  padding: 10px 15px 10px 25px;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  position: relative;
+  left: 0;
+}
+
+.social-bar ul li a:hover {
+  left: 10px;
+  z-index: 2;
+}
+
+.fb{background: #3b5998;}
+.tw{background: #55acee;}
+.gp{background: #dd4b39;}
+.yt{background: #ff0000;}
+.ml{background: #00bf8f;}
